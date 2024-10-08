@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/button_pulse.v" \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/combo_lock.v" \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v" \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/led_color_rygb.v" \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/master_fsm.v" \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/pwm_counter.v" \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/pwm_gen.v" \
+"../../../../lab_5.srcs/sim_1/imports/Downloads/sim_ledcolor.v" \
+"../../../../lab_5.srcs/sources_1/imports/Downloads/store_combo.v" \
+"../../../../lab_5.srcs/sim_1/imports/Downloads/tb_lab5.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

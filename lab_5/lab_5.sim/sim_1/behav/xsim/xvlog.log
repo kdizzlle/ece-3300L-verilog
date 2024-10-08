@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/button_pulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module button_pulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/combo_lock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combo_lock
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_outputs
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:50]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:56]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:62]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:74]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:80]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:86]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:92]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:98]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:105]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:112]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:119]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register enable_store is not permitted, left-hand side should be reg/integer/time/genvar [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:126]
+ERROR: [VRFC 10-8530] module 'fsm_outputs' is ignored due to previous errors [D:/GitHub/ece-3300L-verilog/lab_5/lab_5.srcs/sources_1/imports/Downloads/fsm_outputs.v:3]
