@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+                   0 b_in= 0 inv_leds= 1000000
+                  10 b_in= 1 inv_leds= 1111001
+                  20 b_in= 2 inv_leds= 0100100
+                  30 b_in= 3 inv_leds= 0110000
+                  40 b_in= 4 inv_leds= 0011001
+                  50 b_in= 5 inv_leds= 0010010
+                  60 b_in= 6 inv_leds= 0000010
+                  70 b_in= 7 inv_leds= 1111000
+                  80 b_in= 8 inv_leds= 0000000
+                  90 b_in= 9 inv_leds= 0010000
+$finish called at time : 100 ns : File "C:/Users/kelly/OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_1/lab_1.srcs/sim_1/new/tb_lab1.v" Line 39

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1727753600" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/traffic_lights.dcp">
+  <File Type="PA-TCL" Name="traffic_lights.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="traffic_lights_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="traffic_lights_reports.tcl"/>
+  <File Type="RDS-RDS" Name="traffic_lights.vds"/>
+  <File Type="RDS-UTIL" Name="traffic_lights_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="traffic_lights_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="traffic_lights.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="traffic_lights_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="traffic_lights_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/bin_to_leds.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/bin_to_leds.v"/>
+        <Attr Name="ImportTime" Val="1725935359"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/count_3bit_select.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/count_3bit_select.v"/>
+        <Attr Name="ImportTime" Val="1727744479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/dd_add3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/dd_add3.v"/>
+        <Attr Name="ImportTime" Val="1727140002"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/decode_enb_leds.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/decode_enb_leds.v"/>
+        <Attr Name="ImportTime" Val="1727145694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/doubdab_8bits.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/doubdab_8bits.v"/>
+        <Attr Name="ImportTime" Val="1727148367"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/invert7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/invert7.v"/>
+        <Attr Name="ImportTime" Val="1725937291"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/led_color.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/led_color.v"/>
+        <Attr Name="ImportTime" Val="1727748613"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/mux_4in_8to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/mux_4in_8to1.v"/>
+        <Attr Name="ImportTime" Val="1727143683"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/pulse_0p1sec.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/pulse_0p1sec.v"/>
+        <Attr Name="ImportTime" Val="1727744512"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/pwm_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/pwm_counter.v"/>
+        <Attr Name="ImportTime" Val="1727744527"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/pwm_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/pwm_gen.v"/>
+        <Attr Name="ImportTime" Val="1727744545"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/seven_seg_decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/seven_seg_decoder.v"/>
+        <Attr Name="ImportTime" Val="1727140106"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/state_decode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/state_decode.v"/>
+        <Attr Name="ImportTime" Val="1727749852"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/timer_12sec.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/timer_12sec.v"/>
+        <Attr Name="ImportTime" Val="1727744600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/traffic_lights.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/traffic_lights.v"/>
+        <Attr Name="ImportTime" Val="1727744624"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/sim_ledcolor.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/sim_ledcolor.v"/>
+        <Attr Name="ImportTime" Val="1727744562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="traffic_lights"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="D:/Users/kelly/Downloads/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/traffic_lights.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kelly/OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_2/lab_2.srcs/sources_1/new/add4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kelly/OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_2/lab_2.srcs/sources_1/new/addsub4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kelly/OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_2/lab_2.srcs/sources_1/new/calculator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kelly/OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_2/lab_2.srcs/sources_1/new/mult4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kelly/OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_2/lab_2.srcs/sources_1/new/mux10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kelly/OneDrive - Cal Poly Pomona/fall 2024/ece 3300L verilog lab/lab_2/lab_2.srcs/sim_1/new/tb_lab2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab2
