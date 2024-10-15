@@ -34,15 +34,46 @@ module uart_loopback_fsm
 	save_byte <= rx_byte;
    end
       
-   always @(*) begin
+   always @(posedge clk) begin
 //
 // write the logic to determine the next state from the current state
 //    
+    next_state = state;
+    
+    case(state)
+    IDLE:
+        if(rx_dv ==1) begin
+            next_state = RECEIVED;
+            end
+    
+    RECEIVED:
+        if(tx_ready == 1) begin
+            next_state = SEND;
+            end
+    
+    SEND:
+    begin
+        next_state = WAITDONE;
+        end
+    
+    WAITDONE:
+        if(tx_done == 1) begin
+            next_state = IDLE;   
+            end 
+    endcase
    end
      
 //
 // also, write an assign expression to create the output tx_dv from the current state
 //    
+   always @(posedge clk) begin
+    if(state == SEND) begin
+        tx_dv = 1;
+    end
+    else begin
+        tx_dv = 0;
+    end
+   end
    
 endmodule
 
