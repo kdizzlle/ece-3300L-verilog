@@ -33,14 +33,17 @@ module master_fsm(
 
    always @(*)
      begin
+    next_state = fsm_state;
+    new_amount = amount;
     
 	case (fsm_state)
-		
 	WAITSELECTION:
+	begin
+	new_amount = item_cost;
 	   if(select)
 	   begin
 	       next_state = WAITPAYMENT;
-	       new_amount = item_cost;
+	   end
 	   end
 	   
 	WAITPAYMENT:
@@ -51,32 +54,37 @@ module master_fsm(
 	
 	GOTQUARTER:
 	begin
-	    new_amount = new_amount - 25;
-	    if(new_amount >= item_cost)
+	    if(amount <= 25) begin
+	       new_amount = 25 - amount;
 	       next_state = DISPENSING;
-	    else
+	    end else begin
+      	    new_amount = amount - 25;
 	       next_state = WAITPAYMENT;
+	    end
 	end
 	
 	GOTDIME:
 	begin
-	    new_amount = new_amount - 10;
-	    if(amount >= item_cost)
+	    if(amount <= 10) begin
+	       new_amount = 10 - amount;
 	       next_state = DISPENSING;
-	    else
+	    end else begin
+      	    new_amount = amount - 10;
 	       next_state = WAITPAYMENT;
+	    end
 	end
 	
 	DISPENSING:
 	begin
-	   if(amount > item_cost)
+	   if(~sending)
 	       next_state = CHANGERETURN;
-	   else if (sending)
+	   else
 	       next_state = WAITSELECTION;
 	end
 	
 	CHANGERETURN:
 	begin
+	if(~sending)
 	   next_state = WAITSELECTION;
 	end
 		  

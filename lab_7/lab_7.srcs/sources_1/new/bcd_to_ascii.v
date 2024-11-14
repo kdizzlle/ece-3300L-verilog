@@ -21,12 +21,16 @@ always @(*)
 begin
     if(dispense)
     begin
-        message = {8'd50, 8'd41, 8'd49, 8'd44, 8'h0D, 8'h0A};
+        message = {8'h50, 8'h41, 8'h49, 8'h44, 8'h0D, 8'h0A};
     end
     
-    if(give_change)
+    else if(give_change)
     begin
-        message = {2'b11, amount_bcd[11:8], 2'b11, amount_bcd[9:6], 2'b11, amount_bcd[5:2], 2'b11, amount_bcd[2:0], 8'h0D, 8'h0A};
+        message = {"-",4'b0011, amount_bcd[11:8], 4'b0011, amount_bcd[7:4], 4'b0011, amount_bcd[3:0], 8'h0D, 8'h0A};
+    end
+    
+    else begin 
+        message = {"+",4'b0011, amount_bcd[11:8], 4'b0011, amount_bcd[7:4], 4'b0011, amount_bcd[3:0], 8'h0D, 8'h0A};
     end
 end
 

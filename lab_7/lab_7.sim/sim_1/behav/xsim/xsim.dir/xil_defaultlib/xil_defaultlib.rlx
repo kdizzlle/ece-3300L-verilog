@@ -1,0 +1,23 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/bin_to_leds.v,1725935359,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/count_3bit_select.v,,bin_to_leds,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/invert7.v,1725937291,verilog,,D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/item_cost.v,,invert7,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/dd_add3.v,1727140002,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/decode_enb_leds.v,,dd_add3,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/decode_enb_leds.v,1727145694,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/doubdab_8bits.v,,decode_enb_leds,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/doubdab_8bits.v,1727148367,verilog,,D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/fsm_output.v,,doubdab_8bits,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/mux_4in_8to1.v,1727143683,verilog,,D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/rx_parse.v,,mux_4in_8to1,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/seven_seg_decoder.v,1727140106,verilog,,D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/tx_parse.v,,seven_seg_decoder,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_4/lab_4.srcs/sources_1/new/count_3bit_select.v,1727744479,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/dd_add3.v,,count_3bit_select,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_6/lab_6.srcs/sources_1/new/uart_rx_vlog.v,1728954587,verilog,,D:/GitHub/ece-3300L-verilog/lab_6/lab_6.srcs/sources_1/new/uart_tx_vlog.v,,uart_rx_vlog,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_6/lab_6.srcs/sources_1/new/uart_tx_vlog.v,1728954597,verilog,,D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/vending.v,,uart_tx_vlog,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sim_1/new/tb_vending.v,1730163934,verilog,,,,tb_vending,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/bcd_to_ascii.v,1730779023,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/bin_to_leds.v,,bcd_to_ascii,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/fsm_output.v,1730163814,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_1/lab_1.srcs/sources_1/new/invert7.v,,fsm_output,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/item_cost.v,1730163825,verilog,,D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/master_fsm.v,,item_cost,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/master_fsm.v,1730777327,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/mux_4in_8to1.v,,master_fsm,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/rx_parse.v,1730777376,verilog,,D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/seven_seg_decoder.v,,rx_parse,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/tx_parse.v,1730163875,verilog,,D:/GitHub/ece-3300L-verilog/lab_6/lab_6.srcs/sources_1/new/uart_rx_vlog.v,,tx_parse,,,,,,,,
+D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sources_1/new/vending.v,1730163892,verilog,,D:/GitHub/ece-3300L-verilog/lab_7/lab_7.srcs/sim_1/new/tb_vending.v,,vending,,,,,,,,

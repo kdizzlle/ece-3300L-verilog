@@ -1,0 +1,33 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_vending_behav xil_defaultlib.tb_vending xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/doubdab_8bits.v:23]
+WARNING: [VRFC 10-3091] actual bit length 35 differs from formal bit length 4 for port 'i' [D:/GitHub/ece-3300L-verilog/lab_4/lab4_no_one_drive.srcs/sources_1/imports/ece 3300L verilog lab/lab_3/lab_3.srcs/sources_1/new/doubdab_8bits.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx_vlog
+Compiling module xil_defaultlib.uart_rx_vlog
+Compiling module xil_defaultlib.rx_parse
+Compiling module xil_defaultlib.tx_parse
+Compiling module xil_defaultlib.item_cost
+Compiling module xil_defaultlib.bcd_to_ascii
+Compiling module xil_defaultlib.master_fsm
+Compiling module xil_defaultlib.fsm_output
+Compiling module xil_defaultlib.dd_add3
+Compiling module xil_defaultlib.doubdab_8bits
+Compiling module xil_defaultlib.count_3bit_select
+Compiling module xil_defaultlib.decode_enb_leds
+Compiling module xil_defaultlib.mux_4in_8to1
+Compiling module xil_defaultlib.bin_to_leds
+Compiling module xil_defaultlib.invert7
+Compiling module xil_defaultlib.seven_seg_decoder
+Compiling module xil_defaultlib.vending
+Compiling module xil_defaultlib.tb_vending
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_vending_behav
